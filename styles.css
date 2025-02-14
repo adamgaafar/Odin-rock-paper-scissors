@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.navbar-con {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    gap: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.playerdiv {
+    display: flex;
+    gap: 20px;
+}
+
+.playerdiv div {
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.playerdiv div:hover {
+    background-color: black;
+    color: white;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    background-color: bisque;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
