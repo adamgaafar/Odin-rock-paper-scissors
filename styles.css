@@ -11,8 +11,9 @@ body {
 .navbar-con {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 50px;
     background-color: bisque;
+    font-size: 32px;
 }
 
 .main-content {
@@ -20,7 +21,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 150px;
+    margin: 60px;
     gap: 50px;
     margin-left: 50px;
     margin-right: 50px;
